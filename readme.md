@@ -1,1 +1,1 @@
-Intervalo CESAR sobre AngularJS apresentado por Francisco Gileno e Ramon
+Intervalo CESAR sobre AngularJS apresentado por Francisco Gileno e Ramon Victor
