@@ -13,10 +13,7 @@
                 <a href="/">AngularJS Commerce</a>
             </div>
             <div class="col-md-8 col-xs-6 text-right">
-                <a class="btn btn-lg btn-primary" href="/cart">
-                    <i class="glyphicon glyphicon-shopping-cart"></i>
-                    Items: {{ cart.getNumberOfItems() }} | Total: {{ cart.getTotal() | currency }}
-                </a>
+                <cart-summary number-of-items="cart.getNumberOfItems()" total="cart.getTotal()" />
             </div>
         </div>
     </div>
@@ -31,10 +28,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-6 text-left">AngularJS Commerce</div>
             <div class="col-md-6 col-xs-6 text-right">
-                <a class="btn btn-lg btn-primary" href="/cart">
-                    <i class="glyphicon glyphicon-shopping-cart"></i>
-                    Items: {{ cart.getNumberOfItems() }} | Total: {{ cart.getTotal() | currency }}
-                </a>
+                <cart-summary number-of-items="cart.getNumberOfItems()" total="cart.getTotal()" />
             </div>
         </div>
     </div>
@@ -48,4 +42,5 @@
 <script src="app/home/homeController.js"></script>
 <script src="app/cart/cartController.js"></script>
 <script src="app/cart/cartService.js"></script>
+<script src="app/cart/cartSummary.js"></script>
 </html>
