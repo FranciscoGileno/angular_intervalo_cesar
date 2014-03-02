@@ -60,5 +60,5 @@
         }
     }
 
-    app.factory('cartService', cartService);
+    app.service('cartService', cartService);
 }(angular.module('app')));
