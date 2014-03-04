@@ -13,14 +13,13 @@
                 <a href="/">AngularJS Commerce</a>
             </div>
             <div class="col-md-8 col-xs-6 text-right">
-                <cart-summary number-of-items="cart.getNumberOfItems()" total="cart.getTotal()" />
+                <cart-summary number-of-items="{{ cart.getNumberOfItems() }}" total="{{ cart.getTotal() }}" />
             </div>
         </div>
     </div>
 </header>
 <div class="body-container">
-    <div class="container">
-        <div ng-view></div>
+    <div ng-view class="container">
     </div>
 </div>
 <footer>
@@ -28,7 +27,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-6 text-left">AngularJS Commerce</div>
             <div class="col-md-6 col-xs-6 text-right">
-                <cart-summary number-of-items="cart.getNumberOfItems()" total="cart.getTotal()" />
+                <cart-summary number-of-items="{{ cart.getNumberOfItems() }}" total="{{ cart.getTotal() }}" />
             </div>
         </div>
     </div>
