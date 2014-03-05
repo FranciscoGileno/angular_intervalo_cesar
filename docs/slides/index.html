@@ -42,111 +42,60 @@
 			<div class="slides">
 
 				<section>
-				    <h1>Introdução ao Angular JS</h1>
+				    <h1>Angular JS<br />Getting Started</h1>
                     <hr/>
 				    <p><small>HTML enhanced for web apps!</small></p>
 				</section>
 
-<!-- 				<section>
-				    <h2>Quem sou eu</h2>
-                    <h4>Francisco Gileno Oliveira</h4>
-				    <ul style="list-style: none;">
-				        <li class="fragment">1999 - Truenet - Recife</li>
-				        <li class="fragment">2007 - Datavolus - DVCommerce - Recife</li>
-				        <li class="fragment shake">2012 - ITEffect - Wellington - NZ</li>
-						<li class="fragment">2013 - C.E.S.A.R. - Recife - PE</li>
-				    </ul>
-				</section>
- -->
+                <section>
+                    <h2>Who we are</h2>
+                    <div  style=" font-size: 18pt;">
+                        <div style="float: left; width: 45%;">
+                            <h3>Francisco Gileno Oliveira</h3>
+                            <ul>
+                                <li>1999 - Truenet - Recife</li>
+                                <li>2007 - Datavolus - Recife</li>
+                                <li>2011 - ITEffect - Wellington - NZ</li>
+                                <li>2013 - C.E.S.A.R. - Recife - PE</li>
+                            </ul>
+                        </div>
+                        <div style="float: left; width:45%">
+                            <h3>Ramon Victor</h3>
+                            <ul>
+                                <li>2010 - ABCDE</li>
+                                <li>2014 - C.E.S.A.R. - Recife - PE</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
 				<!-- Example of nested vertical slides -->
 			    <section>
-			        <h2>Angular JS: O que é? e pra que serve?</h2>
+			        <h2>Angular JS Code</h2>
 					
-					<pre class="fragment"><code data-trim="" contenteditable="" style="font-size: 18px; margin-top: 20px;" class="javascript">
+					<pre><code data-trim="" contenteditable="" style="font-size: 18px; margin-top: 20px;" class="javascript">
 &lt;html&gt;
-	&lt;body&gt;
-	.
-	.
-	&lt;/body&gt;
-	&lt;script src=&quot;angular.js&quot;&gt;&lt;/script&gt;					
+    &lt;body&gt;
+        .
+        .
+        .
+        &lt;script src=&quot;angular.js&quot;&gt;&lt;/script&gt;
+    &lt;/body&gt;
 &lt;/html&gt;
 					</code></pre>					
 			    </section>
 
 			    <section>
-			        <h2>Breve histórico do desenvolvimento web</h2>
-			    </section>
-
-				<section>
-				    <h2>1991 - 1999</h2>
-                    <p>Request: http://www.yahoo.com</p>
-				    <div class="fragment" style="background-color: #fff">
-				        <iframe src="http://web.archive.org/web/19990208021747/http://yahoo.com/" width="800" scrolling="no" height="400" frameborder="0"></iframe>
-				    </div>
-                </section>
-
-				<section>
-				    <h2>1999 - ???</h2>
-                    <h2 class="fragment">Ajax</h2>
-				    <ul style="text-align: left;">
-				        <li class="fragment">1998/1999 - Microsoft introduz o primeiro cliente XMLHTTP no IE, logo adotado por Mozilla, Safari e Opera.</li>
-				        <li class="fragment">2004/2005 - Google densenvolve o Gmail e Google Maps, dois dos melhores Web Apps já vistos.</li>
-                    </ul>
-				</section>
-
-			    <section>
-			        <h2>E agora?</h2>
-                    <img src="img/Baby-spaz-reaction.gif?" alt="forgifs.com" />
-			    </section>
-
-<!-- 			    <section>
-			        <table class="solucao">
-			            <tr>
-			                <th>Antes</th>
-			                <td><i class="icon-desktop"></i><br/><small>Usuário</small></td>
-			                <td><i class="icon-long-arrow-right"></i><br/><small>www.website.com</small></td>
-			                <td><i class="icon-sign-blank"></i><br/><small>Server</small></td>
-			                <td><i class="icon-long-arrow-right"></i><br/><small>HTML</small></td>
-			                <td><i class="icon-desktop"></i><br/><small>Usuário</small></td>
-			            </tr>
-			        </table>
-			    </section>
-                <section>
-                    <table class="solucao">
-				        <tr>
-				            <th>Agora</th>
-				            <td><i class="icon-desktop"></i><br /><br />
-				                <i class="icon-laptop"></i><br /><br />
-				                <i class="icon-tablet"></i><br /><br />
-				                <i class="icon-mobile-phone"></i><br /><br />
-				            </td>
-				            <td><i class="icon-long-arrow-right"></i><br/><small>endpoint url (REST)</small></td>
-				            <td><i class="icon-sign-blank"></i><br/><small>Server (Web API)</small></td>
-				            <td><i class="icon-long-arrow-right"></i><br/><small>JSON / XML</small></td>
-				            <td><i class="icon-desktop"></i><br/><br />
-				                <i class="icon-laptop"></i><br/><br />
-				                <i class="icon-tablet"></i><br/><br />
-				                <i class="icon-mobile-phone"></i><br/><br />
-				            </td>
-				        </tr>				    </table>
-				</section>
-
-			    <section>
-			        <h2>SPA</h2>
-                    <p>Single Page Application</p>
-			    </section>
- -->
-			    <section>
-			        <h2>Evolução das Bibliotecas Javascript</h2>
+			        <h2>Evolution of Javascript's libraries</h2>
                     <ul>
-						<li class="fragment">HTML DOM
+						<li>HTML DOM
 							<ul>
 								<li>Prototype JavaScript Framework - Fev/2005</li> 
 								<li>jQuery - Jan/2006</li>
 								<li>MooTools - Set/2006</li>
 							</ul>
 						</li>
-						<li class="fragment">MVC Frameworks
+						<li>MV* Frameworks
                             <ul>
                                 <li>Knockout JS - jul/2010</li>
                                 <li>Backbone JS - out/2010</li>
@@ -157,7 +106,7 @@
 			    </section>
 
                 <section>
-                    <h2>Angular - Caracteristicas</h2>
+                    <h2>Angular - Characteristics</h2>
 
                     <ul class="block">
                         <li>Modules</li>
