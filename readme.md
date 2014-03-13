@@ -1,7 +1,8 @@
 Intervalo CESAR sobre AngularJS apresentado por Francisco Gileno e [Ramon Victor](https://github.com/ramonvictor).
 
 
-Slides em: docs/slides/index.html
+- # (Slides disponíveis online)[http://ramonvictor.github.io/angularjs-intervalo-cesar/]
+- # (Live demo da aplicação apresentada)[http://ramonvictor.github.io/angularjs-intervalo-cesar/docs/slides/]
 
 
 ## Referências:
