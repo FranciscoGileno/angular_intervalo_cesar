@@ -1,10 +1,10 @@
-Intervalo CESAR sobre AngularJS apresentado por Francisco Gileno e Ramon Victor
+Intervalo CESAR sobre AngularJS apresentado por Francisco Gileno e [Ramon Victor](https://github.com/ramonvictor).
 
 
 Slides em: docs/slides/index.html
 
 
-Referências:
+## Referências:
 
 - AngularJS Project: http://www.angularjs.org/
 - AngularJS Learning: https://github.com/jmcunningham/AngularJS-Learning
